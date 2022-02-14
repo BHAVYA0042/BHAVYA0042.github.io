@@ -69,10 +69,14 @@ body {
   background-size: cover;
   padding-bottom: 4%;
 }
+.cv_link{
+  text-decoration: none;
+  color: black
+}
 
 .written {
   padding-bottom: 7%;
-  margin: 79.875px auto 0;
+  margin: 5% auto 0;
   width: 60%;
   text-align: center;
 }
@@ -132,19 +136,19 @@ body {
 }
 
 .about span {
-  color: #FF4848;
+  color: #7FC8A9;
   /* color: #FA8072; */
   padding-left: 0.5%;
 }
 
 .dp {
-  width: 25%;
+  width: 30%;
   border: 1px solid black;
   padding: 0.25%;
   position: relative;
   border-radius: 50%;
   float: left;
-  margin-right: 50px;
+  margin-right: 10%;
 }
 
 .personal_info {}
@@ -158,8 +162,8 @@ body {
 }
 
 .social_media i:hover {
-  color: #FF4848;
-  border: 2px solid #FF4848;
+  color: #7FC8A9;
+  border: 2px solid #7FC8A9;
 }
 
 /* ///////////////////////////////////////SKILLS///////////////////////////////// */
@@ -197,7 +201,7 @@ body {
 /* ///////////////////////////////EDUCATION////////////////////////////////// */
 .education {
   padding: 5% 9%;
-  background-color: #f8fafc;
+  background-color: #E8F6EF;
   text-align: center;
 }
 
