@@ -10,7 +10,9 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
+.intro_desc{
+  padding: 0 20%;
+}
 .tabs a {
   color: black;
   text-decoration: none;
@@ -429,6 +431,9 @@ body {
     bottom: 150px;
     width:25%;
     left:10%;
+  }
+  .intro_desc{
+    padding: 0 10%;
   }
   .about{
     font-size: 25px;
