@@ -116,14 +116,14 @@ body {
 
 .curve {
   /* font-family: 'Gloria Hallelujah', cursive; */font-family: 'Sacramento', cursive;
-  position: absolute;
+  position:relative;
   size-adjust:inherit;
-  bottom:10% ;
-  width:20%;
-  left:5%;
+  bottom: 200px;
+  width:25%;
+  left:8%;
 }
 .rotate {
-  width: 150px;
+  width: 50%;
   font-size: 2rem;
   transform: rotate(-5deg);
 }
@@ -424,11 +424,11 @@ body {
   }
   .curve {
     /* font-family: 'Gloria Hallelujah', cursive; */font-family: 'Sacramento', cursive;
-    position: absolute;
+    position:relative;
     size-adjust:inherit;
-    bottom:50% ;
-    width:20%;
-    left:5%;
+    bottom: 150px;
+    width:25%;
+    left:10%;
   }
   .about{
     font-size: 25px;
