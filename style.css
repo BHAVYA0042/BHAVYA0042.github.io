@@ -386,8 +386,8 @@ body {
 }
 .handle{
   width:250px;
-
   margin-left: 52.5%;
+ 
 }
 .handle i{
   margin-right: 5%;
@@ -395,6 +395,7 @@ body {
 .handle a{
   text-decoration: none;
   color: white;
+  padding-left: 5%;
 }
 /* ///////////////////MOBILE DEVICES////////////// */
     
@@ -416,13 +417,14 @@ body {
     overflow:hidden;
     z-index: 2;
     box-shadow: 0 5px #F1F7E7;
+    grid-template-columns: none;
   }
   .bar {
-    color: black;
-    padding: 2% 5%;
-    /* width: 100%; */
+    grid-template-columns: none;
     margin: auto;
-    top: 0;
+  }
+  .tabs{
+    grid-area: 1 / 2 / 1 / span 2;
   }
   .curve {
     /* font-family: 'Gloria Hallelujah', cursive; */font-family: 'Sacramento', cursive;
@@ -501,7 +503,6 @@ body {
   }
   .text{
     font-size: 30px;
-
   }
   .wave{
     width:60px;
@@ -511,6 +512,17 @@ body {
     margin-top: 10%;
   }
   .handle{
-    margin-left:25% ;
+    margin-left:20% ;
+    width:300px;
   }
+  .tabs a{
+    font-size: 20px;
+  }
+  .bar > .tabs a:hover {
+    font-size: 20px;
+  }
+  .tabs a:hover {
+    font-size: 25px;
+  }
+
 }
