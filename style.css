@@ -178,6 +178,30 @@ body {
   color: #7FC8A9;
   border: 2px solid #7FC8A9;
 }
+/* /////////////////////////////////WORK EXPERIENCE ///////////////////////////////// */
+.exp{
+  padding: 5%;
+  text-align: center;
+}
+.exp_grid {
+  padding-top: 4%;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-column-gap: 5%;
+}
+.work_card{
+  border-left: solid 4px #1C3879;
+  text-align: left;
+  padding-left: 2%;
+}
+.work_card h3{
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+.work_card h5{
+  margin-top: 0;
+  margin-bottom: 6px;
+}
 
 /* ///////////////////////////////////////SKILLS///////////////////////////////// */
 .skills{
@@ -257,7 +281,6 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   padding: 5%;
-  margin-bottom: 10%;
   grid-column-gap: 5%;
   grid-row-gap: 10%
 }
