@@ -183,7 +183,7 @@ body {
   padding: 5%;
   text-align: center;
 }
-.exp_grid {
+.exp_grid{
   padding-top: 4%;
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
